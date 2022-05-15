@@ -1,0 +1,58 @@
+/*-------------------------------------------------------Settings-------------------------------------------------------------------*/
+*{
+    outline: none;
+}
+body{
+    font-family: "lato";
+    font-weight:300;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*-------------------------------------------------------Header-------------------------------------------------------------------*/
+.header{
+    background-color: #222222;
+}
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.header-logo__img{
+    margin-right: 41px;
+}
+.my-acc__img{
+    margin: 0 33px;
+}
+.cart{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.cart__number{
+    position: absolute;
+    right: -8px;
+    top: -5px;
+    border-radius: 100%;
+    width: 19px;
+    height: 19px;
+    background-color: #F16D7F;
+    text-align: center;
+    color: #ffffff;
+    line-height: 19px;
+    font-size: 12px;
+
+}
+
+/*------------------------------------------------------------Banner--------------------------------------------------------------------*/
+.banner-flex{
+   display: flex;
+}
+.banner-left{
+    width: 50%;
+}
+.banner-right{
+    width: 50%;
+}
