@@ -1,6 +1,7 @@
 /*-------------------------------------------------------Settings-------------------------------------------------------------------*/
 *{
     outline: none;
+    text-decoration: none;
 }
 body{
     font-family: "lato";
@@ -27,7 +28,6 @@ body{
     margin: 0 33px;
 }
 .cart{
-    text-decoration: none;
     display: inline-block;
     position: relative;
 }
@@ -47,6 +47,9 @@ body{
 }
 
 /*------------------------------------------------------------Banner--------------------------------------------------------------------*/
+.banner{
+    background-color: #F1E4E6;
+}
 .banner-flex{
    display: flex;
 }
@@ -55,4 +58,67 @@ body{
 }
 .banner-right{
     width: 50%;
+}
+.banner__text{
+    display: flex;
+    margin-top: 290px;
+}
+.banner__text::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 96px;
+    background-color: #F16D7F;
+    margin-right: 16px;
+}
+.banner__heading{
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 45px;
+    margin: 0;
+}
+.subtitle{
+    font-size: 32px;
+    font-weight: 700;
+}
+.subtitle__pink{
+    color: #F16D7F;
+}
+/*--------------------------------------------------------------Offers-------------------------------------------------------------------*/
+.offers-flex{
+    margin: 65px 0 96px 0
+}
+.offers-flex__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.offer__item{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.offer__img{
+    filter: brightness(40%);
+    
+}
+.offer__text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;   
+}
+.offer__subtile{
+    font-size: 16px;
+    font-weight: 400;
+}
+.offer__heading{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F16D7F;
 }
