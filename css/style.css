@@ -226,6 +226,7 @@ body{
 .footer__top__wrapper{
     background-image:url(/img/footer-top/bg.jpg);
     background-repeat: no-repeat;
+    background-size:cover;
 }
 .footer__top-flex{
     display: flex;
@@ -260,7 +261,7 @@ body{
     padding: 15px 40px 15px 20px;
 }
 .footer__top__right__input::placeholder{
-    font-size: 14;
+    font-size: 14px;
     font-weight: 400;
     color: #222224;
 }
