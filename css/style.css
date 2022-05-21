@@ -87,6 +87,10 @@ body{
     padding-top: 16px;
     font-weight: 700;
     cursor: pointer;
+    transition: color 1s;
+}
+.menu__close:hover{
+    color: #F16D7F;
 }
 .menu__heading{
     font-weight: 700;
@@ -106,6 +110,10 @@ body{
     font-size: 14px;
     font-weight: 400;
     color: #6F6E6E;
+    transition: color 1s;
+}
+.menu-item__link:hover{
+    color: #F16D7F;
 }
 .menu__item:not(:last-child){
     padding-bottom:11px ;
@@ -260,10 +268,10 @@ body{
     border-top-left-radius: 50px;
     background-color: #E1E1E1;
     padding: 15px 40px 15px 20px;
-}
-.footer__top__right__input::placeholder{
     font-size: 14px;
     font-weight: 400;
+}
+.footer__top__right__input::placeholder{ 
     color: #222224;
 }
 .footer__top__right__btn{
@@ -271,12 +279,13 @@ body{
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     background-color: #F16D7F;
-    padding: 16px 20px;
+    padding: 15px 20px;
     color:#fff;
     margin-left: -5px;
     font-size: 14px;
     font-weight: 400;
     cursor: pointer;
+    transition: background-color 1s;
 }
 .footer__top__right__btn:hover{
     background-color: #D73C3C;
@@ -299,6 +308,7 @@ body{
     background-color: #FFFFFF;
     color: #000000;
     display: inline-block;
+    transition: 1s;
 }
 .footer__link :not(:last-child){
     right: 10px;
