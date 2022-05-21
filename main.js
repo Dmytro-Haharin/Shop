@@ -8,3 +8,5 @@ menuBtn.addEventListener('click', function(){
 menuClose.addEventListener('click', function(){
 	menu.classList.toggle('active');
 })
+
+alert("незнаю насколько правильно я сделал семантику, хотел бы услышать фитбек")
