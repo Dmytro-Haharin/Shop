@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product</title>
+    <title>Cart</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -67,109 +67,64 @@
     <div class="top-product">
         <div class="container">
             <div class="top-product__flex">
-                <h2 class="product-heading">NEW ARRIVALS</h2>
-                <ul class="bread-crumbs">
-                    <li class="bread-crumbs__item"><a href="index.html" class="bread-crumbs__link">home</a></li>
-                    <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">men</a></li>
-                    <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link bread-crumbs__active">NEW ARRIVAL</a></li>
-                </ul>
+                <h2 class="product-heading">SHOPPING CART</h2>
             </div>
         </div>
     </div>
-    <div class="banner-product">
-        <a href="#" class="product-arrow"><i class="fa-solid fa-angle-left"></i></a>
-        <img src="img/Product-pages/banner.jpg" alt="banner image" class="banner-product__bg">
-        <a href="#" class="product-arrow"><i class="fa-solid fa-angle-right"></i></a>
-    </div>
-    <div class="container">
-        <section class="collection">
-            <h2 class="collection__heading">WOMEN COLLECTION</h2>
-            <hr class="collection-line__heading">
-            <h2 class="collection__subtitle">MOSCHINO CHEAP AND CHIC</h2>
-            <p class="collection__description">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
-            <p class="price ">$561</p>
-            <hr class="collection-line">
-            <ul class="collection-sort">
-                <li class="collection-sort__item"><a href="" class="collection-sort__link">CHOOSE COLOR<i class="fa-solid fa-angle-down"></i></a></li>
-                <li class="collection-sort__item"><a href="" class="collection-sort__link">CHOOSE SIZE<i class="fa-solid fa-angle-down"></i></a></li>
-                <li class="collection-sort__item"><a href="" class="collection-sort__link">QUANTITY<i class="fa-solid fa-angle-down"></i></a></li>
-            </ul>
-            <a href="#" class="collection-btn"><span>Add to Card</span></a>
-        </section>
-    </div>
-    <section class="container product">
-        <div class="product-flex">
-            <div class="item-flex">
-                <a href="#" class="product__item">
-                    <img src="img/Product-pages/product/1.jpg" alt="item photo" class="item__photo">
-                    <div class="item__text">
-                        <h2 class="item-text__heading">ELLERY X M'O CAPSULE</h2>
-                        <p class="item-text__discription">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <p class="price">$52.00</p>
+    <main class="container">
+        <div class="shoping-flex">
+            <div class="shoping-cards">
+                <div class="shoping-card">
+                    <img src="img/cart/1.jpg" alt="shoping card photo" class="shoping-card-img">
+                    <div class="shoping-card-text">
+                        <h2 class="shoping-card-heading">MANGO  PEOPLE  T-SHIRT</h2>
+                        <span class="shoping-card-setting">Price:<span class="price price_shoping-card">$300</span></span>
+                        <span class="shoping-card-setting">Color:<span class="shoping-card-settings">Red</span></span>
+                        <span class="shoping-card-setting">Size:<span class="shoping-card-settings">Xl</span></span>
+                        <span class="shoping-card-setting">Quantity:<span class="shoping-card-settings shoping-card-settings_Quantity">2</span></span>
+                        <span class="shoping-card-close">X</span>
                     </div>
-                </a>
-                <div class="add-box">
-                    <a href="#" class="add">
-                        <img src="img/Header/cart.svg" alt="cart">
-                        <p class="add-text">Add to Cart</p>
-                    </a>
+                </div>
+                <div class="shoping-card">
+                    <img src="img/cart/1.jpg" alt="shoping card photo" class="shoping-card-img">
+                    <div class="shoping-card-text">
+                        <h2 class="shoping-card-heading">MANGO  PEOPLE  T-SHIRT</h2>
+                        <span class="shoping-card-setting">Price:<span class="price price_shoping-card">$300</span></span>
+                        <span class="shoping-card-setting">Color:<span class="shoping-card-settings">Red</span></span>
+                        <span class="shoping-card-setting">Size:<span class="shoping-card-settings">Xl</span></span>
+                        <span class="shoping-card-setting">Quantity:<span class="shoping-card-settings shoping-card-settings_Quantity">2</span></span>
+                        <span class="shoping-card-close">X</span>
+                    </div>
+                </div>
+                <div class="shoping-card shoping-card_bottom">
+                    <a href="#" class="shoping-card-btn">CLEAR SHOPPING CART</a>
+                    <a href="#" class="shoping-card-btn">CONTINUE SHOPPING</a>
                 </div>
             </div>
-            <div class="item-flex">
-                <a href="#" class="product__item">
-                    <img src="img/Product-pages/product/2.jpg" alt="item photo" class="item__photo">
-                    <div class="item__text">
-                        <h2 class="item-text__heading">ELLERY X M'O CAPSULE</h2>
-                        <p class="item-text__discription">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <p class="price">$52.00</p>
+            <div class="shoping-left">
+                <fomg class="shoping-adress">
+                    <h2 class="shoping-adress-heading">SHIPPING ADRESS</h2>
+                    <input type="text" value="Bangladesh" class="shoping-adress-input shoping-adress-input_grey">
+                    <input type="text" value="State" class="shoping-adress-input">
+                    <input type="text" value="Postcode / Zip" class="shoping-adress-input">
+                    <div class="btn-wrapper">
+                        <a href="#" class="shoping-adress-input_btn">GET A QUOTE</a>
                     </div>
-                </a>
-                <div class="add-box">
-                    <a href="#" class="add">
-                        <img src="img/Header/cart.svg" alt="cart">
-                        <p class="add-text">Add to Cart</p>
-                    </a>
-                </div>
-            </div>
-            <div class="item-flex">
-                <a href="#" class="product__item">
-                    <img src="img/Product-pages/product/3.jpg" alt="item photo" class="item__photo">
-                    <div class="item__text">
-                        <h2 class="item-text__heading">ELLERY X M'O CAPSULE</h2>
-                        <p class="item-text__discription">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <p class="price">$52.00</p>
+                </fomg>
+                <div class="tab">
+                    <div class="tab-wrapper">
+                        <p class="sub-total">SUB TOTAL<span class="price-tab_grey">$900</span></p>
+                        <p class="grand-total">GRAND TOTAL<span class="price price-tab">$900</span></p>
+                        
+                        <div class="wrapper-btn">
+                            <a href="#" class="tab-btn">PROCEED TO CHECKOUT</a>
+                        </div>
                     </div>
-                </a>
-                <div class="add-box">
-                    <a href="#" class="add">
-                        <img src="img/Header/cart.svg" alt="cart">
-                        <p class="add-text">Add to Cart</p>
-                    </a>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="suggestions">
-        <div class="container">
-            <div class="suggestions-flex">
-                <div class="suggestions-item">
-                    <img src="img/Suggestions/truck.svg" alt="truck" class="suggestions-item__icon">
-                    <h2 class="suggestions-item__heading">Free Delivery</h2>
-                    <p class="suggestions-item__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                </div>
-                <div class="suggestions-item">
-                    <img src="img/Suggestions/sales.svg" alt="sales" class="suggestions-item__icon">
-                    <h2 class="suggestions-item__heading">Sales & discounts</h2>
-                    <p class="suggestions-item__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                </div>
-                <div class="suggestions-item">
-                    <img src="img/Suggestions/crown.svg" alt="crown" class="suggestions-item__icon">
-                    <h2 class="suggestions-item__heading">Quality assurance</h2>
-                    <p class="suggestions-item__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        
+    </main>
     <section class="footer__top__wrapper">
         <div class="container">
             <div class="footer__top">
