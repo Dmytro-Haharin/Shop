@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/362708026e.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-flex">
+                <div class="header__left">
+                    <a href="index.html" class="header-logo"><img src="img/Header/logo.svg" alt="logo icon" class="header-logo__img"></a>
+                    <form action="#" class="search-form">
+                        <input type="image" class="search-form__img" src="img/Header/search.svg" alt="search icon">
+                        <input type="text" class="search__input" placeholder="Search">
+                    </form>
+                </div>
+                <nav class="header__right">
+                    <a href="#" class="menu-btn"><img src="img/Header/menu.svg" alt="menu icon" class="menu-btn__img"></a>
+                    <a href="registration.html" class="my-acc"><img src="img/Header/my-acc.svg" alt="my acc icon" class="my-acc__img"></a>
+                    <a href="cart.html" class="cart"><img src="img/Header/cart.svg" alt="cart icon" class="cart__img"><span class="cart__number">5</span></a>
+                    <ul class="menu">
+                        <li class="menu__close">
+                            X
+                        </li>
+                        <li class="menu__heading">menu</li>
+                        <li class="menu__block-heading">man</li>
+                        <li class="menu__block">
+                            <ul>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Accessories</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Bags</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Denim</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">T-Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__block-heading">woman</li>
+                        <li class="menu__block">
+                            <ul>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Accessories</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Jackets & Coats</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Polos</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">T-Shirts</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Shirts</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu__block-heading">kids</li>
+                        <li class="menu__block">    
+                            <ul>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Accessories</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Jackets & Coats</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Polos</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">T-Shirts</a></li>
+                                <li class="menu__item"><a href="#" class="menu-item__link">Shirts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="top-product">
+        <div class="container">
+            <div class="top-product__flex">
+                <h2 class="product-heading">Registration</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="form-wrapper">
+            <form action="form" class="registration-form">
+                <h2 class="registration-heading">Yor Name</h2>
+    
+                <input type="text" placeholder="First Name" class="registration-input">
+                <input type="text" placeholder="Last Name" class="registration-input">
+    
+                <div class="radio-box">
+                    <input type="radio" id="male" name="contact">
+                    <label for="male">Male</label>
+        
+                    <input type="radio" id="femele" name="contact">
+                    <label for="femele">Femele</label>
+        
+                    <input type="radio" id="other" name="contact">
+                    <label for="other">Other</label>
+                </div>
+    
+                <h2 class="registration-heading">Login details</h2>
+    
+                <input type="email" placeholder="Email" pattern=".+@globex\.com" size="30" required class="registration-input">
+                <input type="password" placeholder="Pasword" minlength="8" required class="registration-input">
+    
+                <p class="registration-form-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                <div class="btn-wrapper">
+                    <a href="form" class="registration-btn" type="submit">join now <i class="fa-solid fa-right-long"></i></a>
+                </div>
+            </form>
+            <div class="registration-text">
+                <h2 class="registration-text-heading">LOYALTY HAS ITS PERKS</h2>
+    
+                <p class="registration-description">Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+                <div class="registration-gets">
+                    <span class="registration-get"><i class="fa-solid fa-check"></i> 15% off welcome offer</span>
+                    <span class="registration-get"><i class="fa-solid fa-check"></i> Free shipping, returns and exchanges on all orders</span>
+                    <span class="registration-get"><i class="fa-solid fa-check"></i> $10 off a purchase on your birthday</span>
+                    <span class="registration-get"><i class="fa-solid fa-check"></i> Early access to products</span>
+                    <span class="registration-get"><i class="fa-solid fa-check"></i> Exclusive offers & rewards</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="footer__top__wrapper">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__top-flex">
+                    <figure class="footer__top__left">
+                        <img src="img/footer-top/photo.png" alt="photo" class="footer__photo">
+                        <figcaption><p class="footer__top__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p></figcaption>
+                    </figure>
+                    <div class="footer__top__right">
+                        <div class="footer__top__right__text">
+                            <h2 class="footer__top__right__heading">subcribe</h2>
+                            <p class="footer__top__right__subtitle">for our newletter and promotion</p>
+                        </div>
+                        <form action="#" class="footer__top__right__form">
+                            <input type="text" class="footer__top__right__input" placeholder="Enter Your Email">
+                            <button type="submit" class="footer__top__right__btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+                <p class="coryrate">© 2021  Brand  All Rights Reserved.</p>
+                <nav class="footer__soc">
+                    <a href="#" class="footer__link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="footer__link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer__link"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="#" class="footer__link"><i class="fa-brands fa-twitter"></i></a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
